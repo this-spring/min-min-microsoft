@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="root">
+
+  </div>
+  <div id="root1">
+
+  </div>
+  <div id="root2">
+
+  </div>
+</body>
+</html>
+<script src="./s.js"></script>
+<script>
+  const name = S.data('123');
+  S(() => document.getElementById('root').textContent = name())
+  // name('456');
+  S(() => document.getElementById('root1').textContent = name())
+  S(() => document.getElementById('root2').textContent = name())
+
+</script>
