@@ -1,0 +1,22 @@
+{
+  "name": "pwd",
+  "version": "1.0.0",
+  "description": "min min-microsoft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/this-spring/min-min-microsoft.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/this-spring/min-min-microsoft/issues"
+  },
+  "homepage": "https://github.com/this-spring/min-min-microsoft#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
